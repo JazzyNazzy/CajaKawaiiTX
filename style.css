@@ -40,12 +40,12 @@ body {
     padding: 20px;
     margin-top: 10px;
     height: 125vh;
-    background-color: #FFC2D4;
+    background-color: #f8dde5;
     font-family: Georgia;
 }
 
 main {
-    color: #fff
+    color: #b0a5c4
 }
 
 div.container {
@@ -60,18 +60,30 @@ img {
 
 div.image {
     margin-right: 10px;
-    border: #b0a5c4;
-    border-style: dotted;
+    border: #b0a5c4; 
+}
+
+div.image img {
+    border: #b0a5c4 3px solid;
 }
 
 div.text {
     max-width: 200px;
 }
 
+.bottomimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: #b0a5c4 solid 3px;
+}
+
 h1.Name {
-    font-family: fantasy;
-    font-weight: lighter;
-    -webkit-text-stroke-width: 1px;
+    color: #fff;
+    font-family: Lucida Bright, Georgia, serif;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1.25px;
     -webkit-text-stroke-color: #b0a5c4;
     text-align: center;
 }
+
